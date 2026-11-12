@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: linear-gradient(160deg, #fdf2f8 0%, #f0fdf4 55%, #ecfeff 100%);
+  background-attachment: fixed;
+  color: #1c1917;
+}
